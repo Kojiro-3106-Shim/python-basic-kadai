@@ -1,0 +1,26 @@
+PS C:\Users\engag> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\engag
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/09/01      9:26                git_challenge
+
+
+PS C:\Users\engag> cd git_challenge
+PS C:\Users\engag\git_challenge> git init
+Initialized empty Git repository in C:/Users/engag/git_challenge/.git/
+PS C:\Users\engag\git_challenge> git add hellow_world.txt
+PS C:\Users\engag\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 3f26988] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hellow_world.txt
+PS C:\Users\engag\git_challenge> git add hellow_world.txt
+PS C:\Users\engag\git_challenge> git commit -m "日本語を追加"
+[main eb09e26] 日本語を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\engag\git_challenge> git log --oneline
+eb09e26 (HEAD -> main) 日本語を追加
+3f26988 hello_world.txtを追加
